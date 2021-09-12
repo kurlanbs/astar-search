@@ -170,7 +170,7 @@ def algorithm(draw, grid, start, end):
 
 		if current != start:
 			current.make_closed()
-			print("close node: P{}|F({})=g({})+h({})".format(neighbor.get_pos(),f_score[neighbor],temp_g_score,temp_h_score))
+			print("close node: P{}".format(current.get_pos()))
 			time.sleep(0.5)
 
 	return False
