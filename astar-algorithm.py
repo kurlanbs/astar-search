@@ -208,15 +208,15 @@ def draw(win, grid, rows, width):
 El Problema es dividido de manera manual en 6 problemas independientes que corresponden a la siguiente ejecución:
 	Subproblema 0: Que parte de las posiciones definidas en el ejercicio, en este punto se considera como destino al punto (0,2). 
 				   Para ejecutar el recorrido presionar la barra espaciadora.
-	Subproblema 1: Carga presionando la TECLA 1, que parte del objetivo del subproblema1 (0,2) y tiene como destino (2,3). 
+	Subproblema 1: Carga presionando la TECLA 1, que parte del objetivo del subproblema0 (0,2) y tiene como destino (2,3). 
 				   Para ejecutar el recorrido ejecutar la barra espaciadora.
 	Subproblema 2: Carga presionando la TECLA 2, que parte del objetivo del subproblema1 (2,3) y tiene como destino (0,0). 
 				   Para ejecutar el recorrido ejecutar la barra espaciadora.
-	Subproblema 3: Carga presionando la TECLA 3, que parte del objetivo del subproblema1 (0,0) y tiene como destino (3,3). 
+	Subproblema 3: Carga presionando la TECLA 3, que parte del objetivo del subproblema2 (0,0) y tiene como destino (3,3). 
 				   Para ejecutar el recorrido ejecutar la barra espaciadora.
-	Subproblema 4: Carga presionando la TECLA 4, que parte del objetivo del subproblema1 (3,3) y tiene como destino (3,0). 
+	Subproblema 4: Carga presionando la TECLA 4, que parte del objetivo del subproblema3 (3,3) y tiene como destino (3,0). 
 				   Para ejecutar el recorrido ejecutar la barra espaciadora.
-	Subproblema 5: Carga presionando la TECLA 5, que parte del objetivo del subproblema1 (3,0) y tiene como destino (1,3). 
+	Subproblema 5: Carga presionando la TECLA 5, que parte del objetivo del subproblema4 (3,0) y tiene como destino (1,3). 
 	               Para ejecutar el recorrido ejecutar la barra espaciadora.
 	Final: Carga presionando la TECLA 6, muestra el resultado final.
 """
